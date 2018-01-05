@@ -1,0 +1,106 @@
+// Variables de Colores
+$gris300: #E0E0E0
+$gris400: #BDBDBD
+$gris500: #9E9E9E
+$rojo500: #F44336
+$azul500: #2196F3
+$cyan500: #00BCD4
+$verde500: #4CAF50
+$violeta500: #9C27B0
+$amarillo500: #FFEB3B
+
+// Contenedor del radio button y el label del radio
+.radio-group
+  position: relative
+  padding-left: 20px
+  margin-bottom: 12px
+  cursor: pointer
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+  // Oculta el radio button que renderiza el navegador por defecto
+  input[type=radio]
+    position: absolute
+    opacity: 0
+
+
+// Crea el fondo del radio button
+.checkmark
+  position: absolute
+  top: 0
+  left: 0
+  height: 16px
+  width: 16px
+  background-color: #fff
+  border-radius: 50%
+  border: 1px solid $gris400
+
+  // Crea el punto del radio
+  &:after
+    content: ""
+    position: absolute
+    display: none
+    top: 4px
+    left: 4px
+    width: 8px
+    height: 8px
+    border-radius: 50%
+    background: #fff
+
+// On hover: agrega fondo gris al radio  
+.radio-group:hover input[type=radio] ~ .checkmark
+  background-color: $gris300
+
+// On checked: Muestra el punto en el botón radio
+.radio-group input[type=radio]:checked ~ .checkmark:after
+  display: block
+
+// On checked: agrega fondo gris oscuro al radio  
+.radio-group
+  input[type=radio]:checked ~ .checkmark
+    background-color: $gris500
+      border-color: $gris500
+
+// On checked: agrega fondo rojo al radio  
+.red-radio
+  .radio-group
+    input[type=radio]:checked ~ .checkmark
+      background-color: $rojo500
+      border-color: $rojo500
+
+// On checked: agrega fondo azul al radio  
+.blue-radio
+  .radio-group
+    input[type=radio]:checked ~ .checkmark
+      background-color: $azul500
+      border-color: $azul500
+
+// On checked: agrega fondo amarillo al radio  
+.yellow-radio
+  .radio-group
+    input[type=radio]:checked ~ .checkmark
+      background-color: $amarillo500
+      border-color: $amarillo500
+
+// On checked: agrega fondo verder al radio  
+.green-radio
+  .radio-group
+    input[type=radio]:checked ~ .checkmark
+      background-color: $verde500
+      border-color: $verde500
+
+// On checked: agrega fondo violeta al radio  
+.violet-radio
+  .radio-group
+    input[type=radio]:checked ~ .checkmark
+      background-color: $violeta500
+      border-color: $violeta500
+
+// On checked: agrega fondo cyan al radio  
+.cyan-radio
+  .radio-group
+    input[type=radio]:checked ~ .checkmark
+      background-color: $cyan500
+      border-color: $cyan500
