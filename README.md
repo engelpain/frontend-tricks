@@ -13,7 +13,7 @@
     <a href="https://github.com/engelpain/sass-tricks/blob/master/radios/radios.md">
       Radios personalizados:
       <br>
-      <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/radios.png" alt="Radios">
+      <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/radios.png" alt="Radios">
     </a>
   </li>
 </ul>
