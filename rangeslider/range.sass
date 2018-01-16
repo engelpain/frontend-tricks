@@ -1,0 +1,85 @@
+// Variables de Colores
+$gris300: #E0E0E0
+$gris400: #BDBDBD
+$gris500: #9E9E9E
+$rojo500: #F44336
+$azul500: #2196F3
+$cyan500: #00BCD4
+$verde500: #4CAF50
+$violeta500: #9C27B0
+$amarillo500: #FFEB3B
+
+// Botón de rangos
+.slider
+  height: 15px
+  background: $gris400
+  width: 100%
+  -webkit-appearance: none
+  appearance: none
+  outline: none
+  opacity: 0.7
+  -webkit-transition: .2s
+  transition: opacity .2s
+  &::-webkit-slider-thumb
+    -webkit-appearance: none
+    appearance: none
+    width: 25px
+    height: 25px
+    background: $gris500
+    cursor: pointer
+  &::-moz-range-thumb
+    width: 25px
+    height: 25px
+    background: $gris500
+    cursor: pointer
+  &:hover
+    opacity: 1
+
+// Redondeado
+.slider.rounded
+  &::-webkit-slider-thumb
+    border-radius: 50% 
+  &::-moz-range-thumb
+    border-radius: 50%
+
+// Botón azul
+.slider.blue
+  &::-webkit-slider-thumb
+    background: $azul500
+  &::-moz-range-thumb
+    background: $azul500
+
+// Botón rojo
+.slider.red
+  &::-webkit-slider-thumb
+    background: $rojo500
+  &::-moz-range-thumb
+    background: $rojo500
+
+// Botón verde
+.slider.green
+  &::-webkit-slider-thumb
+    background: $verde500
+  &::-moz-range-thumb
+    background: $verde500
+
+// Botón amarillo
+.slider.yellow
+  &::-webkit-slider-thumb
+    background: $amarillo500
+  &::-moz-range-thumb
+    background: $amarillo500
+
+// Botón cyan
+.slider.cyan
+  &::-webkit-slider-thumb
+    background: $cyan500
+  &::-moz-range-thumb
+    background: $cyan500
+
+// Botón violeta
+.slider.violet
+  &::-webkit-slider-thumb
+    background: $violeta500
+  &::-moz-range-thumb
+    background: $violeta500
