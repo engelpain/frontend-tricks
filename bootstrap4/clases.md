@@ -5,22 +5,17 @@ Dirección de Desarrollo<br>
 Autor: [Ing. Angelo Osorio](https://twitter.com/Engel_PAIN)<br>
 Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-
-
 1. [Utilidades](#utilidades)
-    1.1. [Bordes](#bordes)
-        1.1.1  [Agregar bordes](#agregar-bordes)
-        1.1.2  [Colorear bordes](#colorear-bordes)
-        1.1.3  [Redondear bordes](#redondear-bordes)
-        1.1.4  [Eliminar bordes](#eliminar-bordes)
-    1.2. [Texto](#texto)
-        1.2.1. [Colorear Texto](#colorear-texto)
-        1.2.2. [Alinear Texto](#alinear-texto)
-    1.3. [Fondo](#fondo)
-        1.3.1. [Colorear Fondo](#colorear-fondo)
+  1. [Bordes](#bordes)
+    1.  [Agregar bordes](#agregar-bordes)
+    1.  [Colorear bordes](#colorear-bordes)
+    1.  [Redondear bordes](#redondear-bordes)
+    1.  [Eliminar bordes](#eliminar-bordes)
+  1. [Texto](#texto)
+    1. [Colorear Texto](#colorear-texto)
+    1. [Alinear Texto](#alinear-texto)
+  1. [Fondo](#fondo)
+    1. [Colorear Fondo](#colorear-fondo)
 
 ## Utilidades
 
