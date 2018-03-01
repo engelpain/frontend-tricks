@@ -1,19 +1,10 @@
 # Sass Tricks
-<p> Centro Nacional de Desarrollo e Investigación de Tecnologías Libres (CENDITEL)</p>
-<p> <a href="https://www.cenditel.gob.ve/">CENDITEL</a>, Mérida - Venezuela </p>
-<p> Dirección de Desarrollo </p>
-<p> Autor: <a href="https://twitter.com/Engel_PAIN">Ing. Angelo Osorio</a> </p>
-<p> Fecha de Elaboración: 05-01-2018 (dd,mm,aaaa)</p><br>
+Centro Nacional de Desarrollo e Investigación de Tecnologías Libres (CENDITEL) <br>
+[CENDITEL](https://www.cenditel.gob.ve/), Mérida - Venezuela<br>
+Dirección de Desarrollo<br>
+Autor: [Ing. Angelo Osorio](https://twitter.com/Engel_PAIN)<br>
+Fecha de Elaboración: 05-01-2018 (dd,mm,aaaa)
 
-
-<p> Minilibrerías de estilos escritos en Sass </p>
-
-<ul>
-  <li>
-    <a href="https://github.com/engelpain/sass-tricks/blob/master/radios/radios.md">
-      Radios personalizados:
-      <br>
-      <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/radios.png" alt="Radios">
-    </a>
-  </li>
-</ul>
+## Minilibrerías de estilos escritas en Sass
+[Radios personalizados](./blob/master/radios/radios.md)
+![Radios personalizados](./blob/master/radios/img/radios.png)
