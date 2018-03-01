@@ -6,54 +6,54 @@ Autor: [Ing. Angelo Osorio](https://twitter.com/Engel_PAIN)<br>
 Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 
 1. [Utilidades](#utilidades)
-  1. [Bordes](#bordes)
-    1.  [Agregar bordes](#agregar-bordes)
-    1.  [Colorear bordes](#colorear-bordes)
-    1.  [Redondear bordes](#redondear-bordes)
-    1.  [Eliminar bordes](#eliminar-bordes)
-  1. [Texto](#texto)
-    1. [Colorear Texto](#colorear-texto)
-    1. [Alinear Texto](#alinear-texto)
-  1. [Fondo](#fondo)
-    1. [Colorear Fondo](#colorear-fondo)
+   1. [Bordes](#bordes)
+      1.  [Agregar bordes](#agregar-bordes)
+      1.  [Colorear bordes](#colorear-bordes)
+      1.  [Redondear bordes](#redondear-bordes)
+      1.  [Eliminar bordes](#eliminar-bordes)
+   1. [Texto](#texto)
+      1. [Colorear Texto](#colorear-texto)
+      1. [Alinear Texto](#alinear-texto)
+   1. [Fondo](#fondo)
+      1. [Colorear Fondo](#colorear-fondo)
 
 ## Utilidades
 
 ### Bordes
 
 #### Agregar bordes
-  * border
-  * border-top
-  * border-right
-  * border-bottom
-  * border-left
+   * border
+   * border-top
+   * border-right
+   * border-bottom
+   * border-left
 
 #### Colorear bordes
-  * border border-primary
-  * border border-secondary
-  * border border-success
-  * border border-danger
-  * border border-warning
-  * border border-info
-  * border border-light
-  * border border-dark
-  * border border-white
+   * border border-primary
+   * border border-secondary
+   * border border-success
+   * border border-danger
+   * border border-warning
+   * border border-info
+   * border border-light
+   * border border-dark
+   * border border-white
 
 #### Redondear bordes
-  * rounded
-  * rounded-top
-  * rounded-right
-  * rounded-bottom
-  * rounded-left
-  * rounded-circle
-  * rounded-0
+   * rounded
+   * rounded-top
+   * rounded-right
+   * rounded-bottom
+   * rounded-left
+   * rounded-circle
+   * rounded-0
 
 #### Eliminar bordes
-  * border-0
-  * border-top-0
-  * border-right-0
-  * border-bottom-0
-  * border-left-0
+   * border-0
+   * border-top-0
+   * border-right-0
+   * border-bottom-0
+   * border-left-0
 
 ### Texto
 
