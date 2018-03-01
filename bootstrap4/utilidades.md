@@ -117,21 +117,21 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 * bg-white
 
 ## Embed
-- 21:9 aspect ratio
-* div.embed-responsive.embed-responsive-21by9
-   * iframe.embed-responsive-item
+* 21:9 aspect ratio
+   * div.embed-responsive.embed-responsive-21by9
+      * iframe.embed-responsive-item
 
-- 16:9 aspect ratio
-* div.embed-responsive.embed-responsive-16by9
-   * iframe.embed-responsive-item
+* 16:9 aspect ratio
+   * div.embed-responsive.embed-responsive-16by9
+      * iframe.embed-responsive-item
 
-- 4:3 aspect ratio
-* div.embed-responsive.embed-responsive-4by3
-   * iframe.embed-responsive-item
+* 4:3 aspect ratio
+   * div.embed-responsive.embed-responsive-4by3
+      * iframe.embed-responsive-item
 
-- 1:1 aspect ratio
-* div.embed-responsive.embed-responsive-1by1
-   * iframe.embed-responsive-item
+* 1:1 aspect ratio
+   * div.embed-responsive.embed-responsive-1by1
+      * iframe.embed-responsive-item
 
 ## Posición 
 * position-static
