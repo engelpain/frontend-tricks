@@ -5,7 +5,7 @@ Dirección de Desarrollo<br>
 Autor: [Ing. Angelo Osorio](https://twitter.com/Engel_PAIN)<br>
 Fecha de Elaboración: 02-03-2018 (dd,mm,aaaa)
 
-## Clases para <table>
+## Clases para table
 * table
 * table table-striped
 * table table-bordered
@@ -13,9 +13,9 @@ Fecha de Elaboración: 02-03-2018 (dd,mm,aaaa)
 * table table-sm
 
 ## Colorear celdas
-* <table>
+* table
    * table table-{primary, secondary, success, warning, danger, dark, light}
-* <thead>, <tbody>, <th>, <tr>, <td>
+* thead, tbody, th, tr, td
    * table-{primary, secondary, success, warning, danger, dark, light}
    * bg-{primary, secondary, success, warning, danger, dark, light}
 
