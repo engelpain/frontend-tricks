@@ -1,4 +1,4 @@
-# Contenedores de Bootstrap 4
+# Layout de Bootstrap 4
 Centro Nacional de Desarrollo e Investigación de Tecnologías Libres (CENDITEL) <br>
 [CENDITEL](https://www.cenditel.gob.ve/), Mérida - Venezuela<br>
 Dirección de Desarrollo<br>
@@ -13,11 +13,11 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 * row
 
 ## Media queries
-* @media (max-width: 575px) // Extra small (xs)
-* @media (min-width: 576px) and (max-width: 767px) // Small devices (sm)
-* @media (min-width: 768px) and (max-width: 991px) // Medium devices (md)
-* @media (min-width: 992px) and (max-width: 1199px) // Large devices (lg)
-* @media (min-width: 1200px) // Extra large devices (lx)
+* Extra small (xs): @media (max-width: 575px)
+* Small devices (sm): @media (min-width: 576px) and (max-width: 767px)
+* Medium devices (md): @media (min-width: 768px) and (max-width: 991px)
+* Large devices (lg): @media (min-width: 992px) and (max-width: 1199px)
+* Extra large devices (lx): @media (min-width: 1200px)
 
 
 ## Columnas
@@ -33,3 +33,8 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
    * md: col-md
    * lg: col-lg
    * lx: col-lx
+* Offsets
+   * offset-{1-12}
+   * offset-sm-{1-12}
+   * offset-md-{1-12}
+   * offset-lg-{1-12}

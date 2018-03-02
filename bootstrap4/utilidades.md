@@ -16,11 +16,12 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
    1. [Comportamiento del texto](#comportamiento-del-texto)
    1. [Transformación del texto](#transformaci%C3%B3n-del-texto)
 3. [Fondo](#fondo)
-   1. [Colorear Fondo](#colorear-fondo)
 4. [Embed](#embed)
 5. [Posición](#posici%C3%B3n)
 6. [Visibilidad](#visibilidad)
 7. [Flotantes](#flotantes)
+8. [Margin y Padding](#margin-y-padding)
+9. [Imágenes](#Imágenes)
 
 ## Bordes
 ### Agregar bordes
@@ -84,10 +85,10 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
    * text-right
    * text-justify
 * Por media query
-   * text-sm-left
-   * text-md-left
-   * text-lg-left
-   * text-xl-left
+   * text-sm-{left, center, right, justify}
+   * text-md-{left, center, right, justify}
+   * text-lg-{left, center, right, justify}
+   * text-xl-{left, center, right, justify}
 
 ### Comportamiento del texto
 * Sin salto de línea
@@ -105,7 +106,6 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 * font-italic
 
 ## Fondo
-### Colorear fondo
 * bg-primary
 * bg-secondary
 * bg-success
@@ -157,11 +157,11 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 
 * Mostrar elementos por media query
    * Mostrado en todas: d-block
-   * Mostrado solo en xs: .d-block .d-sm-none
-   * Mostrado solo en sm: .d-none .d-sm-block .d-md-none
-   * Mostrado solo en md: .d-none .d-md-block .d-lg-none
-   * Mostrado solo en lg: .d-none .d-lg-block .d-xl-none
-   * Mostrado solo en xl: .d-none .d-xl-block
+   * Mostrado solo en xs: d-block d-sm-none
+   * Mostrado solo en sm: d-none d-sm-block d-md-none
+   * Mostrado solo en md: d-none d-md-block d-lg-none
+   * Mostrado solo en lg: d-none d-lg-block d-xl-none
+   * Mostrado solo en xl: d-none d-xl-block
 * Ocultar elementos por media query
    * Ocultar en todas: d-none
    * Oculto solo en xs: d-none d-sm-block
@@ -174,3 +174,31 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 * float-left
 * float-right
 * float-none
+
+## Margin y Padding
+Formato: {propiedad}{lado}-{tamaño}
+Formato con media query: {propiedad}{lado}-{media query}-{tamaño}
+
+* Propiedad (Requerido)
+   * m (margin)
+   * p (padding)
+* Lado (Opcional)
+   * t (top)
+   * b (bottom)
+   * l (left)
+   * r (right)
+   * x (Eje x)
+   * y (Eje y)
+   * "En blanco" (todos los lados)
+* Tamaño(Requerido)
+   * 0 (0rem)
+   * 1 (.25rem)
+   * 2 (.5rem)
+   * 3 (1rem)
+   * 4 (1.5rem)
+   * 5 (3rem)
+   * auto
+
+## Imágenes
+* img-fluid
+* img-thumbnail
