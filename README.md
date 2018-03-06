@@ -7,4 +7,4 @@ Fecha de Elaboración: 05-01-2018 (dd,mm,aaaa)
 
 ## Minilibrerías de estilos escritas en Sass
   * [Radios personalizados](./radios/radios.md)
-  * [Clases de Bootstrap 4](./bootstrap4/clases.md)
+  * [Clases de Bootstrap 4](./bootstrap4/README.md)
