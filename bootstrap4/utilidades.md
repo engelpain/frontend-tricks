@@ -21,7 +21,7 @@ Fecha de Elaboración: 01-03-2018 (dd,mm,aaaa)
 6. [Visibilidad](#visibilidad)
 7. [Flotantes](#flotantes)
 8. [Margin y Padding](#margin-y-padding)
-9. [Imágenes](#Im%C3%A1genes)
+9. [Imágenes](#im%C3%A1genes)
 
 ## Bordes
 ### Agregar bordes
