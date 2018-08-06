@@ -8,6 +8,7 @@ Fecha de Elaboración: 06-08-2018 (dd,mm,aaaa)
 ## Resoluciones de monitor (Enero 2018)
 
 |        Resolución         | % utilización |
+|---------------------------|---------------|
 | [Otras más altas](#otras) |      32.9 %   |
 |        1920 x 1080        |      18 %     |
 |        1366 x  768        |      34 %     |
@@ -19,6 +20,7 @@ Fecha de Elaboración: 06-08-2018 (dd,mm,aaaa)
 
 ### Otras
 |       Resolución       | % utilización |
+|------------------------|---------------|
 |       2560 x 1440      |       2 %     |
 |       1920 x 1200      |       2 %     |
 |       1680 x 1050      |       3 %     |
