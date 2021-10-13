@@ -1,0 +1,21 @@
+// Centrar una imagen de un card
+
+.product-card
+  @extend .card
+  padding: 1.5rem
+  position: relative
+  display: grid
+  grid-template-rows: 50px 230px 25px
+
+.product-card .container-img
+  overflow: hidden
+  position: relative
+
+.product-card .container-img img
+  height: 100%
+  bottom: -9999px
+  left: -9999px
+  margin: auto
+  position: absolute
+  right: -9999px
+  top: -9999px
