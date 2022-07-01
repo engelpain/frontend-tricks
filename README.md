@@ -2,18 +2,8 @@
 Autor: [Angelo Osorio](https://twitter.com/Engel_PAIN)
 
 ## Información relevante
-* [Media Queries más usadas](./datos/resoluciones.md): Resoluciones de monitores y display de dispositivos.
-
-
-|     Breakpoint    | Class infix | Dimensions |
-------------------------------------------------
-| X-Small           |     None    |  <  576px  |
-| Small             |     sm      |  ≥  576px  |
-| Medium            |     md      |  ≥  768px  |
-| Large             |     lg      |  ≥  992px  |
-| Extra large       |     xl      |  ≥ 1200px  |
-| Extra extra large |     xxl     |  ≥ 1400px  |
-
+* [Resoluciones de monitores y display de dispositivos más usados](./datos/resoluciones.md).
+* [Breakpoints de bootstrap](./datos/media-queries.md).
 
 ## CSS (en Sass)
 * [Type Effect](./typeeffect/readme.md): Efecto de letras escribiéndose automáticamente.
