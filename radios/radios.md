@@ -1,72 +1,80 @@
 # Guía de uso
-<p> Centro Nacional de Desarrollo e Investigación de Tecnologías Libres (CENDITEL)</p>
-<p> <a href="https://www.cenditel.gob.ve/">CENDITEL</a>, Mérida - Venezuela </p>
-<p> Dirección de Desarrollo </p>
-<p> Autor: <a href="https://twitter.com/Engel_PAIN">Ing. Angelo Osorio</a> </p>
-<p> Fecha de Elaboración: 05-01-2018 (dd,mm,aaaa)</p><br>
+Autor: [Angelo Osorio](https://twitter.com/Engel_PAIN) <br>
+Fecha de Elaboración: 05-01-2018 (dd,mm,aaaa)
 
-<h2> Utilización </h2>
+## Utilización
+1. Crear un **label** con class *radio-group*.
+2. Dentro del **label** agregar un input y un **span** vacío.
+3. Al **span** vacío agregarle el class *radio-group*.
 
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/gray-code.png" alt="">
-</p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/radiogray.png" alt="Radio Gris">
-</p>
-<br>
+El código final sería este:
+```html
+<label class="radio-group">
+  Radio
+  <input type="radio" checked>
+  <span class="checkmark"></span>
+</label>
+```
+Y se verá así: <br>
+![Radio gris](./img/radiogray.png)
 
-<h2> Agregar colores </h2>
+## Variantes
+Para usar las variantes disponibles se agrega una etiqueta que envuelva todo el
+conjunto de radios y se agrega la clase *-radio, donde * son las siguientes
+variables disponibles:
 
-<h3>Azul</h3>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/blue-radio.png" alt="Radio Gris">
-</p>
-<p>Añadir la clase <strong>blue-radio</strong> al padre de <strong>radio-group</strong></p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/blue-code.png" alt="">
-</p>
+### blue-radio
+```html
+<p class="blue-radio">
+  <label class="radio-group">One
+    <input type="radio" name="radiob" checked>
+    <span class="checkmark"></span>
+  </label>
 
-<h3>Rojo</h3>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/red-radio.png" alt="Radio Gris">
+  <label class="radio-group">Two
+    <input type="radio" name="radiob">
+    <span class="checkmark"></span>
+  </label>
 </p>
-<p>Añadir la clase <strong>red-radio</strong> al padre de <strong>radio-group</strong></p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/red-code.png" alt="">
-</p>
+```
+![Radios azules](./img/blue-radio.png)
 
-<h3>Amarillo</h3>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/yellow-radio.png" alt="Radio Gris">
+### red-radio
+```html
+<p class="red-radio">
+  ...
 </p>
-<p>Añadir la clase <strong>yellow-radio</strong> al padre de <strong>radio-group</strong></p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/yellow-code.png" alt="">
-</p>
+```
+![Radios azules](./img/red-radio.png)
 
-<h3>Verde</h3>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/green-radio.png" alt="Radio Gris">
+### yellow-radio
+```html
+<p class="yellow-radio">
+  ...
 </p>
-<p>Añadir la clase <strong>green-radio</strong> al padre de <strong>radio-group</strong></p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/green-code.png" alt="">
-</p>
+```
+![Radios azules](./img/yellow-radio.png)
 
-<h3>Violeta</h3>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/violet-radio.png" alt="Radio Gris">
+### green-radio
+```html
+<p class="green-radio">
+  ...
 </p>
-<p>Añadir la clase <strong>violet-radio</strong> al padre de <strong>radio-group</strong></p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/violet-code.png" alt="">
-</p>
+```
+![Radios azules](./img/green-radio.png)
 
-<h3>Cyan</h3>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/cyan-radio.png" alt="Radio Gris">
+### violet-radio
+```html
+<p class="violet-radio">
+  ...
 </p>
-<p>Añadir la clase <strong>cyan-radio</strong> al padre de <strong>radio-group</strong></p>
-<p>
-  <img src="https://github.com/engelpain/sass-tricks/blob/master/radios/img/cyan-code.png" alt="">
+```
+![Radios azules](./img/violet-radio.png)
+
+### cyan-radio
+```html
+<p class="cyan-radio">
+  ...
 </p>
+```
+![Radios azules](./img/cyan-radio.png)
