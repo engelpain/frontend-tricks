@@ -12,6 +12,7 @@ Autor: [Angelo Osorio](https://twitter.com/Engel_PAIN)
 
 ## Trucos en CSS3 y Sass
 * [Type Effect](./typeffect/readme.md): Efecto de letras escribiéndose automáticamente.
+
 ![type Effect](./typeffect/preview.gif)
 
 ## Minilibrerías de estilos escritas en Sass
